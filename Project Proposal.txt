@@ -1,1 +1,54 @@
-Project Proposal
+--Project Proposal--
+
+-Title-
+Electronic Plant Sensor
+
+-Group members-
+Jesper Sandberg (jesan@itu.dk)
+Thomas Kokholm (tkok@itu.dk)
+
+-Background & Motivation- (Jeg tror det er smart at lave dem som et afsnit)
+For years students and other individuals have failed to keep plants alive, correct watering and sunlight is difficult to provide
+in todays busy world. Yet we do desire to keep plants for their decoration as well as their oxygen production. A similar problem
+is when is it necessary to vaccum, we do not wish to waste time by doing it too often, but still want our home to be clean,
+today the typical solution is to make it a weekly tradition, but depending on how much you are at home and what you do, this is
+far from an optimal solution. Our solution solves all these issues for the busy people of today, along with a huge range of
+information about the temperature and other things in your home. Keep your home healthy.
+
+-Idea-
+
+
+-Scenario-
+
+
+-Plan-
+
+
+-Requirements-
+Arduino ? board
+Temperature Sensor
+Humidity Sensor
+Vand dims?
+Dust Sensor
+Solar Panel / Sensor
+
+-Supervisor-
+Sebastian Büttrich (sebastian@itu.dk)
+
+
+
+
+
+
+Project Proposal Outline
+You project proposal outline should (at least) contain the following things:
+
+Basic information: Title, group members, email addresses, etc. (do NOT, however, add your birth date or CPR no.)
+Background and Motivation, including core references
+Main Problem or Idea
+Suggested Solution described e.g. as a Scenario
+Plan
+Requirements for equipment, space, etc.
+Supervisor
+Project proposals should — just like the final project report  – follow the ACM Ubicomp Template for papers and notes.
+We recommend using LaTex as your word processor.
