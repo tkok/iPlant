@@ -45,7 +45,7 @@ breaklinks=true, }
 \section{ABSTRACT}
 People enjoy plants, their benefits and the feeling related to nurturing them. However for most people it becomes challenging to keep them healthy and alive. To accommodate this challenge we have developed a prototype, which makes a plant more self-sufficient, watering itself from a large water tank and providing itself with artificial sunlight.
 The prototype reports status of its current conditions and also reminds the user to refill the water tank. The system automation is designed to be assistive to the user. We hope that through this prototype people will enjoy having plants without the challenges related to absent or forgetfulness.
-iPlant is a step towards modern and future homes. Utilising the concepts of pervasive computing where users have complete control over their spaces  \cite{future-homes}.
+iPlant is a step towards modern and future homes. Utilising the concepts of pervasive computing where users have complete control over their spaces \cite{future-homes}.
 
 \section{AUTHOR KEYWORDS}
 Plant monitoring, Automatic watering, Artificial sunlight, Wi-Fi Communication
@@ -56,9 +56,9 @@ Arduino, RHT03, Drip irrigation, Wi-Fi
 \section{INTRODUCTION}
 
 \hypertarget{introduction}
-Since the dawn of time humans has lived with and enjoyed the beauty and benefits of household plants \cite{The-Benefits-of-Plants-and-Landscaping, houseplants-make-you-smarter} \cite[Chapter~2]{People-Plant-Relationship}. However since then, the way of nurturing plants almost haven't evolved. In a household plants are grown in mold or dirt, potted and placed on the windowsill. Due to this plants are dependent on regular nurturing - watering them and providing the right amount of sunlight to stay alive and grow. Plants are important for a healthy environment since they contribute to clean and natural air, with the production of oxygen \cite{photosyntese}. They help convert CO2 gasses and neutralize toxins in the air.
+Since the dawn of time humans has lived with and enjoyed the beauty and benefits of household plants \cite{The-Benefits-of-Plants-and-Landscaping, houseplants-make-you-smarter} \cite[Chapter~2]{People-Plant-Relationship}. However since then, the way of nurturing plants almost haven't evolved. In a household plants are grown in mold or dirt, potted and placed on the windowsill. Due to this plants are dependent on regular nurturing - watering them and providing the right amount of sunlight to stay alive and grow. Plants are important for a healthy environment since they contribute to clean and natural air, with the production of oxygen \cite{photosyntese, light-for-plant-growth}. They help convert CO2 gasses and neutralize toxins in the air.
 
-This has resulted in a number of challenges. \hyperlink{questionnaire}{Results of our survey} shows that people often forget to nurture their plant(s), between daily activities. \hyperlink{questionnairecomments}{The results we got from our survey} is that plants suffer and die, gets discarded and simply replaced by a new one \cite{Danes-spend-approx-2000-a-year-on-plants}, or \hyperlink{questionnaire}{as we discovered during the survey}, people stop having plants altogether. This issue have even gotten as far as creating a successful industry for artificial/non-living plants made out of plastic.
+This has resulted in a number of challenges. \hyperlink{questionnaire}{Results of our survey} shows that people often forget to nurture their plant(s), between daily activities. \hyperlink{questionnairecomments}{The results we got from our survey} is that plants suffer and die, gets discarded and simply replaced by a new one, or \hyperlink{questionnaire}{as we discovered during the survey}, people stop having plants altogether. According to StatBank Denmark, Danes spend approximately DKK 2000,- per year on plants. This issue have even gotten as far as creating a successful industry for artificial/non-living plants made out of plastic.
 People often develop a strong affection towards their plants, as we confirmed during our \hyperlink{questionnairecomments}{survey}). A relationship build on regular caretaking in order to grow and evolve - similar to the way animals and humans grow and evolve in life \cite{People-Plant-Relationship}. Research has shown that there is a link between nurturing plants as children, and how those children treat nature as an adult \cite{Childrens-Active-and-Passive-Interactions-with-Plants}.
 
 In order to solve all or at least many of the above issues, engineers try to create helpful systems that keep plants alive by i.e. automatic watering or reminders like the Moreland AWS-10 \cite{moreland} or Botanicalls \cite{botanicalls}. However these systems do not solve the overall challenges. Plants still need humans as caretakers - one way or the other. So how can we solve all these issues, with forgetful humans, plants that require water and sunlight, as well as keeping the relationship between plant and people? Based on the above context, we believe there is a need for a home gardening system, which take care of all the different aspects in nurturing plants. We believe that technology can assist people in nurturing plants, not only by automation but also through digital communication (e.g. notifying a users when a plants is in needs of attention).
@@ -153,25 +153,10 @@ Focus is on developing a prototype that is:
     \item Ready from the beginning
 \end{itemize}
 
-iPlant should resemble regular household pots, yet packet with technology, assisting a user in nurturing household plants and provide users with information on temperature, humidity and general air. Using iPlant people can engage in having many different plants with absolute minimum effort. Even plants that require much attention like i.e. orchidaceae which are otherwise difficult to keep \cite{naturstyrelsen}.
+iPlant should resemble regular household pots, yet packet with technology, assisting a user in nurturing household plants and provide users with information on temperature, humidity and general air. Using iPlant people can engage in having many different plants with absolute minimum effort. Even plants that require much attention like i.e. orchidaceae which are otherwise difficult to keep.
 
 \subsection{Research Method}
 \todo{should describe the process of your research: how you designed your system, how you identified the users’ requirements (questionnaire, interview, ...), and how you evaluate your prototype}
-
-\subsection{Requirements Analysis}
-
-\subsubsection{Fully Automated Scenario}
-A family leaves their home for two weeks of much needed vacation. During their stay, their plants suffer from their absence.
-In one room the curtains are closed, and prevent the plants from obtaining sufficient sunlight - they stop growing and begin to wither and may die.
-In another room plants are over-watered in the hope that they will survive during the absence. They unfortunately drown from the massive watering.
-In a third room the family did not water their plants sufficiently and wither from regular exposure to sunlight without moist soil to drain from.
-
-If only there was a system which could attend these plants, then the family would not only continue to have their plants upon return, they wouldn't ever have to worry when leaving home.
-
-\subsubsection{Assistive System Scenario}
-Bob love having plants in his house. He takes great interest in having many different plants. However Bob also has a very stressful job, that takes much of his attention. In busy weeks he sometimes forget to take care of his many plants. This has resulted in some of them dying and many getting close. Bob feels guilty about this and wishes there was something he could do to remember the plants in the weeks where he is so busy.
-
-If there only was a system that could remind him or even help him when he forget to take care of a plant.
 
 \subsubsection{Finding the Target Group}
 Further research will have to be done in this area, but we decided to categorize our main target groups as the following:
@@ -191,6 +176,48 @@ It should be put into consideration that most of our respondents are people we h
 \subsubsection{Interview}
 We have conducted two interviews with our volunteer for the human interaction test, Patrick. One at our initial meeting, where we explained the purpose of the test, how the system works and what we would like him to test during the test. We asked about his expectations and hopes for the system.
 The final interview was conducted at the end of the test, we asked how it all went, what he thought of our prototype, any ideas, corrections, etc.
+
+\subsection{Requirements Analysis}
+
+\subsubsection{Fully Automated Scenario}
+A family leaves their home for two weeks of much needed vacation. During their stay, their plants suffer from their absence.
+In one room the curtains are closed, and prevent the plants from obtaining sufficient sunlight - they stop growing and begin to wither and may die.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\columnwidth]{closed_blinds.png}
+\caption{Illustrating a scenario where closed blinds prevent the plant necessary sunlight.}
+\label{fig:closed_blinds}
+\end{figure}
+
+In another room plants are over-watered in the hope that they will survive during the absence. They unfortunately drown from the massive watering.
+In a third room the family did not water their plants sufficiently and wither from regular exposure to sunlight without moist soil to drain from.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\columnwidth]{forgot_to_water.png}
+\caption{Illustrating a scenario where the owner neglects to water a plant.}
+\label{fig:forgot_to_water}
+\end{figure}
+
+If only there was a system which could attend these plants, then the family would not only continue to have their plants upon return, they wouldn't ever have to worry when leaving home.
+
+\subsubsection{Assistive System Scenario}
+Bob love having plants in his house. He takes great interest in having many different plants. However Bob also has a very stressful job, that takes much of his attention. In busy weeks he sometimes forget to take care of his many plants. This has resulted in some of them dying and many getting close. Bob feels guilty about this and wishes there was something he could do to remember the plants in the weeks where he is so busy.
+
+If there only was a system that could remind him or even help him when he forget to take care of a plant.
+
+\subsubsection{Result of Questionnaire}
+\hypertarget{questionnaire}
+We got a total of 66 respondents of which 61 (92.4\%) completing the questionnaire. 83\% are students and 89\% are 20-29 years of age with a slight overweight  of male respondents.
+Of this group 72\% have over-watered a plant, 94\% have forgotten to water a plant (see Figure \ref{fig:MakeDigitalMagazine}), 69\% have forgotten to pull up the blinds or curtains and 78\% have killed a plant.
+56\% would consider paying money to get a system such as our prototype, the average maximum amount being DKK 238,- for the system.
+
+\subsubsection{Result of Interviews}
+For our initial interview we spent most of the time setting up the system and explaining how the system works, we asked for his expectations of the system, he simply replied that he did not know, but he guess he was expecting the plant not to die.
+
+For the interview after the 2 week test we asked him what he thought about having the iPlant in his home, he mentioned that it was smart and very futuristic. As this was part of the human interaction test, we asked what he thought about the notifications, to that he said that he did not like the ones where the plant is simply reporting back that it is doing fine, he even compared it to spam and would like some function to disable them. We would like to know if a system like this would make him want to get more plants, to this he answered yes, but only if it was possible to disable those notifications. He also thought that this makes having plants less boring. In wrapping things up we asked if there is anything else he would like to have changed with the system, to this he mentioned that he got a little tired of refilling the water tank, because it was so small.
+
 
 \section{SYSTEM ARCHITECTURE}
 Based on the survey results our focus is on designing an intelligent plant, with inspiration drawn from similar systems such as Make Digital's guide to a home gardening system \cite{how-to-make-a-gardening-system} and Botanicalls \cite{botanicalls}.
@@ -315,12 +342,17 @@ The test was involved Patrick nurturing the plant as if it was a regular potted 
 %+ Does it become more boring to have plants?
 
 %simulte the finished beutiful system. Where would people place the plants. What problem arise and etc.
-\subsubsection{Interview}
-For our initial interview we spent most of the time setting up the system and explaining how the system works, we asked for his expectations of the system, he simply replied that he did not know, but he guess he was expecting the plant not to die.
+\subsection{Interview}
+Patricks first impression of the system is that it is 100\% self reliable, that he dosent have to do anything, and that the plant will still survive no matter what. While this would be great, the user still has to attend to the system from time to time. Refilling the water tank, and making sure that the plant dosent get any diseases. Power outages or other outside factors could disable the current prototype completly without notifing the owner.
 
-For the interview after the 2 week test we asked him what he thought about having the iPlant in his home, he mentioned that it was smart and very futuristic. As this was part of the human interaction test, we asked what he thought about the notifications, to that he said that he did not like the ones where the plant is simply reporting back that it is doing fine, he even compared it to spam and would like some function to disable them. We would like to know if a system like this would make him want to get more plants, to this he answered yes, but only if it was possible to disable those notifications. He also thought that this makes having plants less boring. In wrapping things up we asked if there is anything else he would like to have changed with the system, to this he mentioned that he got a little tired of refilling the water tank, because it was so small.
+Patrick thought the system was very futuristic, that confirms our assumption that our prototype will fit younger people well in accordence to adapting new technology.
 
-\todo{Write short evaluation of interview answers}
+Patrick found some of the notifications redundant and annoying. We proposed an alternative solution where the notifications could be filtered, for instance only notifiying if something is wrong and avoiding messages like "everything is fine".
+
+Patrick reported that he would like to have more plants in his house if they were all based on the iPlant system. As having only one self sufficient plant is obsolete, as he would still need to attend all the remaining plants.
+Patrick would like the water tank to contain more water, so for future prototypes we would make the tank larger, so the plant could survive even longer.
+
+Patrick believes having plant systems like this makes life easier and better, however we don't think that everyone shares his believe, especially not plant enthusiasts.
 %Hvad har du af forventninger til systemet?
 %Det ved jeg ikke. Forventer vel at planten den ikke dør.
 
@@ -340,12 +372,11 @@ For the interview after the 2 week test we asked him what he thought about havin
 %Nej det er meget bedre!
 
 \subsection{Questionnaire}
-\hypertarget{questionnaire}
-We got a total of 66 respondents of which 61 (92.4\%) completing the questionnaire. 83\% are students and 89\% are 20-29 years of age with a slight overweight  of male respondents.
-Of this group 72\% have over-watered a plant, 94\% have forgotten to water a plant (see Figure \ref{fig:MakeDigitalMagazine}), 69\% have forgotten to pull up the blinds or curtains and 78\% have killed a plant.
-56\% would consider paying money to get a system such as our prototype, the average maximum amount being DKK 238,- for the system.
+As most of our respondents are young students, there is a low tendecy in purchasing plants, especially more expensive plants, however still more than half of the respondents indicated that they were willing to purchase our prototype.
 
-\todo{Write short evaluation of questionnaire results}
+Almost everyone of our respondents have at some point forgotten to water their plants. Most respondents reported that they had also forgotten to pull up blinds and over-watered their plants. Only every 5th respondent said that they had not experienced killing a plant.
+
+The primary group of our respondents are young people under the age of 30, which fits our solution very well, since young people is often faster and better in adapting new technology. They are also most likely the owners of future smart homes, which could include our system.
 
 \begin{figure}[h!]
 \centering
